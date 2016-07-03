@@ -1,26 +1,169 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="4">
             <objects>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ixa-Go-wS9">
+                                <items>
+                                    <navigationItem title="My first Simple view App" id="DB5-7d-xvZ"/>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rSY-yR-e0k">
+                                <items>
+                                    <barButtonItem title="Next" id="e2I-FB-76D">
+                                        <connections>
+                                            <segue destination="VHg-3x-Ram" kind="modal" id="jRq-0y-gHa"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" text="Welcome to my new app !! " translatesAutoresizingMaskIntoConstraints="NO" id="bWd-dZ-EF4">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="401" id="ffU-1L-akl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ixa-Go-wS9" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="AT4-fu-rCm"/>
+                            <constraint firstItem="bWd-dZ-EF4" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="DXh-5m-u1B"/>
+                            <constraint firstItem="Ixa-Go-wS9" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="DpZ-S0-6SV"/>
+                            <constraint firstItem="rSY-yR-e0k" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="Fgq-bQ-DGZ"/>
+                            <constraint firstItem="bWd-dZ-EF4" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="SI5-dh-nY6"/>
+                            <constraint firstItem="Ixa-Go-wS9" firstAttribute="top" secondItem="5" secondAttribute="top" constant="11" id="WjU-o2-1B8"/>
+                            <constraint firstItem="rSY-yR-e0k" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="XZs-aa-ze5"/>
+                            <constraint firstItem="rSY-yR-e0k" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="YZ8-Fj-neD"/>
+                            <constraint firstItem="bWd-dZ-EF4" firstAttribute="top" secondItem="5" secondAttribute="top" constant="90" id="frC-td-Tka"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="233" y="184"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="P6V-yE-uZD">
+            <objects>
+                <viewController id="VHg-3x-Ram" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yHM-yd-l0C">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Meg-megan-fox-34252185-1920-1080.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iID-oA-elv">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="731" id="i9w-Kc-tEB"/>
+                                    <constraint firstAttribute="height" constant="420" id="mKT-M9-rio"/>
+                                </constraints>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oCv-R2-02f">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="768" id="5Bo-1G-7PD"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Item" id="c6e-6o-Nau">
+                                        <connections>
+                                            <segue destination="2" kind="modal" id="CeI-4t-61b"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Next" id="aAT-bc-s8p">
+                                        <connections>
+                                            <segue destination="xRi-qV-etc" kind="modal" id="hL1-y8-BzN"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="megan_fox_2011-normal.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HFq-zF-yR8">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="478" id="Etu-GY-Ch3"/>
+                                    <constraint firstAttribute="width" constant="676" id="bpP-oS-WSf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iID-oA-elv" firstAttribute="leading" secondItem="yHM-yd-l0C" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="4JC-lA-5h6"/>
+                            <constraint firstItem="oCv-R2-02f" firstAttribute="bottom" secondItem="yHM-yd-l0C" secondAttribute="bottom" type="default" id="Ime-3q-zUY"/>
+                            <constraint firstItem="iID-oA-elv" firstAttribute="top" secondItem="yHM-yd-l0C" secondAttribute="top" constant="20" symbolic="YES" type="default" id="SPV-jr-gos"/>
+                            <constraint firstItem="HFq-zF-yR8" firstAttribute="top" secondItem="yHM-yd-l0C" secondAttribute="top" constant="455" id="Xc6-3X-u9d"/>
+                            <constraint firstItem="oCv-R2-02f" firstAttribute="centerX" secondItem="iID-oA-elv" secondAttribute="centerX" type="default" id="dTD-Sq-7rg"/>
+                            <constraint firstItem="HFq-zF-yR8" firstAttribute="leading" secondItem="yHM-yd-l0C" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="mCh-x2-m30"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y3r-ea-Dq6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1228" y="-808"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ahp-86-Cnt">
+            <objects>
+                <viewController id="xRi-qV-etc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Mz-m5-vOZ">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SPl-oK-zqg">
+                                <items>
+                                    <barButtonItem title="Start" id="inA-d4-pdx">
+                                        <connections>
+                                            <segue destination="2" kind="modal" id="bxz-4S-YuW"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="megan-fox-esquire-1662763858.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Vue-GM-L34">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="710" id="Oq6-aA-fSA"/>
+                                    <constraint firstAttribute="height" constant="887" id="eMi-hy-7J6"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SPl-oK-zqg" firstAttribute="trailing" secondItem="1Mz-m5-vOZ" secondAttribute="trailing" type="default" id="QoF-kL-Xr5"/>
+                            <constraint firstItem="SPl-oK-zqg" firstAttribute="top" secondItem="1Mz-m5-vOZ" secondAttribute="top" constant="965" id="ep7-42-R3Q"/>
+                            <constraint firstItem="Vue-GM-L34" firstAttribute="top" secondItem="1Mz-m5-vOZ" secondAttribute="top" constant="66" id="l4C-l3-oRJ"/>
+                            <constraint firstItem="Vue-GM-L34" firstAttribute="centerX" secondItem="SPl-oK-zqg" secondAttribute="centerX" type="default" id="sju-bS-l4s"/>
+                            <constraint firstItem="SPl-oK-zqg" firstAttribute="leading" secondItem="1Mz-m5-vOZ" secondAttribute="leading" type="default" id="zuF-iZ-9Nv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wFe-El-Dtb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2321" y="56"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Meg-megan-fox-34252185-1920-1080.jpg" width="1920" height="1080"/>
+        <image name="megan-fox-esquire-1662763858.jpg" width="1013" height="1390"/>
+        <image name="megan_fox_2011-normal.jpg" width="1920" height="1440"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="CeI-4t-61b"/>
+    </inferredMetricsTieBreakers>
 </document>
