@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1078B4391767964C007BF39D /* Meg-megan-fox-34252185-1920-1080.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1078B4381767964C007BF39D /* Meg-megan-fox-34252185-1920-1080.jpg */; };
+		1078B43B17679892007BF39D /* megan_fox_2011-normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1078B43A17679892007BF39D /* megan_fox_2011-normal.jpg */; };
+		1078B43D17679895007BF39D /* megan-fox-esquire-1662763858.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1078B43C17679895007BF39D /* megan-fox-esquire-1662763858.jpg */; };
 		10E29C7D17676D21001C3897 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E29C7C17676D21001C3897 /* UIKit.framework */; };
 		10E29C7F17676D21001C3897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E29C7E17676D21001C3897 /* Foundation.framework */; };
 		10E29C8117676D21001C3897 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E29C8017676D21001C3897 /* CoreGraphics.framework */; };
@@ -18,9 +21,17 @@
 		10E29C9317676D22001C3897 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E29C9217676D21001C3897 /* Default-568h@2x.png */; };
 		10E29C9617676D22001C3897 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E29C9417676D22001C3897 /* MainStoryboard.storyboard */; };
 		10E29C9917676D22001C3897 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E29C9817676D22001C3897 /* ViewController.m */; };
+		10E29CA017676DE4001C3897 /* quadrant.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E29C9F17676DE4001C3897 /* quadrant.png */; };
+		10E29CA217676F15001C3897 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E29CA117676F15001C3897 /* Default-Portrait~ipad.png */; };
+		10E29CA417676F17001C3897 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E29CA317676F17001C3897 /* Default-Portrait@2x~ipad.png */; };
+		10E29CA617676F1A001C3897 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E29CA517676F1A001C3897 /* Default-Landscape~ipad.png */; };
+		10E29CA817676F1F001C3897 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E29CA717676F1F001C3897 /* Default-Landscape@2x~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1078B4381767964C007BF39D /* Meg-megan-fox-34252185-1920-1080.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Meg-megan-fox-34252185-1920-1080.jpg"; sourceTree = "<group>"; };
+		1078B43A17679892007BF39D /* megan_fox_2011-normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "megan_fox_2011-normal.jpg"; sourceTree = "<group>"; };
+		1078B43C17679895007BF39D /* megan-fox-esquire-1662763858.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "megan-fox-esquire-1662763858.jpg"; sourceTree = "<group>"; };
 		10E29C7917676D21001C3897 /* simpleview_helloword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleview_helloword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E29C7C17676D21001C3897 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		10E29C7E17676D21001C3897 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +48,11 @@
 		10E29C9517676D22001C3897 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		10E29C9717676D22001C3897 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		10E29C9817676D22001C3897 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10E29C9F17676DE4001C3897 /* quadrant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quadrant.png; sourceTree = "<group>"; };
+		10E29CA117676F15001C3897 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		10E29CA317676F17001C3897 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		10E29CA517676F1A001C3897 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		10E29CA717676F1F001C3897 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +72,17 @@
 		10E29C7017676D21001C3897 = {
 			isa = PBXGroup;
 			children = (
+				10E29CA717676F1F001C3897 /* Default-Landscape@2x~ipad.png */,
+				10E29CA517676F1A001C3897 /* Default-Landscape~ipad.png */,
+				10E29CA317676F17001C3897 /* Default-Portrait@2x~ipad.png */,
+				10E29CA117676F15001C3897 /* Default-Portrait~ipad.png */,
+				10E29C9F17676DE4001C3897 /* quadrant.png */,
 				10E29C8217676D21001C3897 /* simpleview_helloword */,
 				10E29C7B17676D21001C3897 /* Frameworks */,
 				10E29C7A17676D21001C3897 /* Products */,
+				1078B4381767964C007BF39D /* Meg-megan-fox-34252185-1920-1080.jpg */,
+				1078B43A17679892007BF39D /* megan_fox_2011-normal.jpg */,
+				1078B43C17679895007BF39D /* megan-fox-esquire-1662763858.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,6 +187,14 @@
 				10E29C9117676D21001C3897 /* Default@2x.png in Resources */,
 				10E29C9317676D22001C3897 /* Default-568h@2x.png in Resources */,
 				10E29C9617676D22001C3897 /* MainStoryboard.storyboard in Resources */,
+				10E29CA017676DE4001C3897 /* quadrant.png in Resources */,
+				10E29CA217676F15001C3897 /* Default-Portrait~ipad.png in Resources */,
+				10E29CA417676F17001C3897 /* Default-Portrait@2x~ipad.png in Resources */,
+				10E29CA617676F1A001C3897 /* Default-Landscape~ipad.png in Resources */,
+				10E29CA817676F1F001C3897 /* Default-Landscape@2x~ipad.png in Resources */,
+				1078B4391767964C007BF39D /* Meg-megan-fox-34252185-1920-1080.jpg in Resources */,
+				1078B43B17679892007BF39D /* megan_fox_2011-normal.jpg in Resources */,
+				1078B43D17679895007BF39D /* megan-fox-esquire-1662763858.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +332,7 @@
 				10E29C9E17676D22001C3897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
